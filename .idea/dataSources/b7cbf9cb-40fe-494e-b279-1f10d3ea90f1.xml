@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="semesterfinalproject@localhost">
+  <database-model serializer="dbm" rdbms="POSTGRES" format-version="4.10">
+    <root id="1">
+      <ServerVersion>10.5</ServerVersion>
+    </root>
+    <database id="2" parent="1" name="Create Manager Database">
+      <ObjectId>16469</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="3" parent="1" name="Manager ">
+      <ObjectId>16470</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="4" parent="1" name="demo-in-class">
+      <ObjectId>24663</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="5" parent="1" name="demothursday">
+      <ObjectId>24661</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="6" parent="1" name="inclass">
+      <ObjectId>16393</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="7" parent="1" name="manager ">
+      <ObjectId>16471</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="8" parent="1" name="postgres">
+      <ObjectId>12938</ObjectId>
+      <Comment>default administrative connection database</Comment>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="9" parent="1" name="semesterfinalproject">
+      <ObjectId>24690</ObjectId>
+      <Owner>postgres</Owner>
+      <IntrospectionStateNumber>116</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </database>
+    <database id="10" parent="1" name="spring-jpa-demo">
+      <ObjectId>16425</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="11" parent="1" name="spring-jpa-demo-app2">
+      <ObjectId>16449</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="12" parent="1" name="spring-jpa-demo-app3">
+      <ObjectId>16450</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="13" parent="1" name="spring-jpa-manager">
+      <ObjectId>16472</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="14" parent="1" name="spring-jpa-manager2">
+      <ObjectId>16512</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="15" parent="1" name="spring-jpa-midterm-manager">
+      <ObjectId>16493</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="16" parent="1" name="spring-jpa-midterm-product">
+      <ObjectId>16531</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="17" parent="1" name="spring-jpa-student">
+      <ObjectId>16492</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <database id="18" parent="1" name="student">
+      <ObjectId>16491</ObjectId>
+      <Owner>postgres</Owner>
+    </database>
+    <role id="19" parent="1" name="pg_monitor">
+      <ObjectId>3373</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="20" parent="1" name="pg_read_all_settings">
+      <ObjectId>3374</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="21" parent="1" name="pg_read_all_stats">
+      <ObjectId>3375</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="22" parent="1" name="pg_signal_backend">
+      <ObjectId>4200</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="23" parent="1" name="pg_stat_scan_tables">
+      <ObjectId>3377</ObjectId>
+      <Inherit>1</Inherit>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <role id="24" parent="1" name="postgres">
+      <ObjectId>10</ObjectId>
+      <SuperRole>1</SuperRole>
+      <Inherit>1</Inherit>
+      <CreateRole>1</CreateRole>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <Replication>1</Replication>
+      <ConnectionLimit>-1</ConnectionLimit>
+      <BypassRls>1</BypassRls>
+    </role>
+    <role id="25" parent="1" name="shine">
+      <ObjectId>24905</ObjectId>
+      <Inherit>1</Inherit>
+      <CreateDb>1</CreateDb>
+      <CanLogin>1</CanLogin>
+      <ConnectionLimit>-1</ConnectionLimit>
+    </role>
+    <schema id="26" parent="9" name="information_schema">
+      <ObjectId>12648</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="27" parent="9" name="pg_catalog">
+      <ObjectId>11</ObjectId>
+      <Comment>system catalog schema</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="28" parent="9" name="pg_temp_1">
+      <ObjectId>11736</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="29" parent="9" name="pg_toast">
+      <ObjectId>99</ObjectId>
+      <Comment>reserved schema for TOAST tables</Comment>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="30" parent="9" name="pg_toast_temp_1">
+      <ObjectId>11737</ObjectId>
+      <Owner>postgres</Owner>
+    </schema>
+    <schema id="31" parent="9" name="public">
+      <ObjectId>2200</ObjectId>
+      <Comment>standard public schema</Comment>
+      <Owner>postgres</Owner>
+      <IntrospectionTimestamp>2019-02-01.00:53:46.404</IntrospectionTimestamp>
+      <IntrospectionStateNumber>678</IntrospectionStateNumber>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <access-method id="32" parent="9" name="btree">
+      <ObjectId>403</ObjectId>
+      <Comment>b-tree index access method</Comment>
+      <Handler>pg_catalog.bthandler</Handler>
+      <HandlerId>330</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="33" parent="9" name="hash">
+      <ObjectId>405</ObjectId>
+      <Comment>hash index access method</Comment>
+      <Handler>pg_catalog.hashhandler</Handler>
+      <HandlerId>331</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="34" parent="9" name="gist">
+      <ObjectId>783</ObjectId>
+      <Comment>GiST index access method</Comment>
+      <Handler>pg_catalog.gisthandler</Handler>
+      <HandlerId>332</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="35" parent="9" name="gin">
+      <ObjectId>2742</ObjectId>
+      <Comment>GIN index access method</Comment>
+      <Handler>pg_catalog.ginhandler</Handler>
+      <HandlerId>333</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="36" parent="9" name="spgist">
+      <ObjectId>4000</ObjectId>
+      <Comment>SP-GiST index access method</Comment>
+      <Handler>pg_catalog.spghandler</Handler>
+      <HandlerId>334</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <access-method id="37" parent="9" name="brin">
+      <ObjectId>3580</ObjectId>
+      <Comment>block range index (BRIN) access method</Comment>
+      <Handler>pg_catalog.brinhandler</Handler>
+      <HandlerId>335</HandlerId>
+      <Type>index</Type>
+    </access-method>
+    <sequence id="38" parent="31" name="component_component_id_seq">
+      <ObjectId>24845</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="39" parent="31" name="customer_customer_id_seq">
+      <ObjectId>24829</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="40" parent="31" name="employee_employee_id_seq">
+      <ObjectId>24853</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="41" parent="31" name="job_job_id_seq">
+      <ObjectId>24861</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="42" parent="31" name="jobcomponent_job_component_id_seq">
+      <ObjectId>24879</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <sequence id="43" parent="31" name="jobstatus_job_status_id_seq">
+      <ObjectId>24837</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+      <SequenceIdentity>1..2147483647</SequenceIdentity>
+      <BelongsToColumn>1</BelongsToColumn>
+      <CacheSize>1</CacheSize>
+      <DataType>integer</DataType>
+    </sequence>
+    <table id="44" parent="31" name="component">
+      <ObjectId>24847</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <table id="45" parent="31" name="customer">
+      <ObjectId>24831</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <table id="46" parent="31" name="employee">
+      <ObjectId>24855</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <table id="47" parent="31" name="flyway_schema_history">
+      <ObjectId>24819</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>677</StateNumber>
+    </table>
+    <table id="48" parent="31" name="job">
+      <ObjectId>24863</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <table id="49" parent="31" name="jobcomponent">
+      <ObjectId>24881</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <table id="50" parent="31" name="jobstatus">
+      <ObjectId>24839</ObjectId>
+      <Owner>postgres</Owner>
+      <StateNumber>678</StateNumber>
+    </table>
+    <column id="51" parent="44" name="component_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;component_component_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>component_component_id_seq</SequenceName>
+    </column>
+    <column id="52" parent="44" name="component_name">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="53" parent="44" name="component_price">
+      <Position>3</Position>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <index id="54" parent="44" name="component_pkey">
+      <ObjectId>24851</ObjectId>
+      <ColNames>component_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="55" parent="44" name="component_pkey">
+      <ObjectId>24852</ObjectId>
+      <ColNames>component_id</ColNames>
+      <UnderlyingIndexName>component_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="56" parent="45" name="customer_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;customer_customer_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>customer_customer_id_seq</SequenceName>
+    </column>
+    <column id="57" parent="45" name="customer_first_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="58" parent="45" name="customer_last_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="59" parent="45" name="customer_email">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="60" parent="45" name="customer_phone_number">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="61" parent="45" name="customer_pkey">
+      <ObjectId>24835</ObjectId>
+      <ColNames>customer_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="62" parent="45" name="customer_pkey">
+      <ObjectId>24836</ObjectId>
+      <ColNames>customer_id</ColNames>
+      <UnderlyingIndexName>customer_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="63" parent="46" name="employee_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;employee_employee_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>employee_employee_id_seq</SequenceName>
+    </column>
+    <column id="64" parent="46" name="employee_first_name">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="65" parent="46" name="employee_last_name">
+      <Position>3</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="66" parent="46" name="employee_email">
+      <Position>4</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="67" parent="46" name="employee_phone_number">
+      <Position>5</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="68" parent="46" name="employee_pkey">
+      <ObjectId>24859</ObjectId>
+      <ColNames>employee_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="69" parent="46" name="employee_pkey">
+      <ObjectId>24860</ObjectId>
+      <ColNames>employee_id</ColNames>
+      <UnderlyingIndexName>employee_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="70" parent="47" name="installed_rank">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="71" parent="47" name="version">
+      <Position>2</Position>
+      <DataType>varchar(50)|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="72" parent="47" name="description">
+      <Position>3</Position>
+      <DataType>varchar(200)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="73" parent="47" name="type">
+      <Position>4</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="74" parent="47" name="script">
+      <Position>5</Position>
+      <DataType>varchar(1000)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="75" parent="47" name="checksum">
+      <Position>6</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="76" parent="47" name="installed_by">
+      <Position>7</Position>
+      <DataType>varchar(100)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="77" parent="47" name="installed_on">
+      <Position>8</Position>
+      <DataType>timestamp|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <DefaultExpression>now()</DefaultExpression>
+      <TypeId>1114</TypeId>
+    </column>
+    <column id="78" parent="47" name="execution_time">
+      <Position>9</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="79" parent="47" name="success">
+      <Position>10</Position>
+      <DataType>boolean|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>677</StateNumber>
+      <TypeId>16</TypeId>
+    </column>
+    <index id="80" parent="47" name="flyway_schema_history_pk">
+      <ObjectId>24826</ObjectId>
+      <ColNames>installed_rank</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="81" parent="47" name="flyway_schema_history_s_idx">
+      <ObjectId>24828</ObjectId>
+      <ColNames>success</ColNames>
+    </index>
+    <key id="82" parent="47" name="flyway_schema_history_pk">
+      <ObjectId>24827</ObjectId>
+      <ColNames>installed_rank</ColNames>
+      <UnderlyingIndexName>flyway_schema_history_pk</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="83" parent="48" name="job_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;job_job_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>job_job_id_seq</SequenceName>
+    </column>
+    <column id="84" parent="48" name="customer_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="85" parent="48" name="job_status_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="86" parent="48" name="product_name">
+      <Position>4</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <column id="87" parent="48" name="total_price">
+      <Position>5</Position>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <column id="88" parent="48" name="profit">
+      <Position>6</Position>
+      <DataType>double precision|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>701</TypeId>
+    </column>
+    <index id="89" parent="48" name="job_pkey">
+      <ObjectId>24867</ObjectId>
+      <ColNames>job_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="90" parent="48" name="job_pkey">
+      <ObjectId>24868</ObjectId>
+      <ColNames>job_id</ColNames>
+      <UnderlyingIndexName>job_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="91" parent="48" name="job_customer_id_fkey">
+      <ObjectId>24869</ObjectId>
+      <ColNames>customer_id</ColNames>
+      <RefTableId>24831</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>customer</RefTableName>
+      <RefKeyName>customer_pkey</RefKeyName>
+      <RefColNames>customer_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="92" parent="48" name="job_job_status_id_fkey">
+      <ObjectId>24874</ObjectId>
+      <ColNames>job_status_id</ColNames>
+      <RefTableId>24839</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>jobstatus</RefTableName>
+      <RefKeyName>jobstatus_pkey</RefKeyName>
+      <RefColNames>job_status_id</RefColNames>
+    </foreign-key>
+    <column id="93" parent="49" name="job_component_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;jobcomponent_job_component_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>jobcomponent_job_component_id_seq</SequenceName>
+    </column>
+    <column id="94" parent="49" name="job_id">
+      <Position>2</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="95" parent="49" name="component_id">
+      <Position>3</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <column id="96" parent="49" name="quantity">
+      <Position>4</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>678</StateNumber>
+      <TypeId>23</TypeId>
+    </column>
+    <index id="97" parent="49" name="jobcomponent_pkey">
+      <ObjectId>24885</ObjectId>
+      <ColNames>job_component_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="98" parent="49" name="jobcomponent_pkey">
+      <ObjectId>24886</ObjectId>
+      <ColNames>job_component_id</ColNames>
+      <UnderlyingIndexName>jobcomponent_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="99" parent="49" name="jobcomponent_job_id_fkey">
+      <ObjectId>24887</ObjectId>
+      <ColNames>job_id</ColNames>
+      <RefTableId>24863</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>job</RefTableName>
+      <RefKeyName>job_pkey</RefKeyName>
+      <RefColNames>job_id</RefColNames>
+    </foreign-key>
+    <foreign-key id="100" parent="49" name="jobcomponent_component_id_fkey">
+      <ObjectId>24892</ObjectId>
+      <ColNames>component_id</ColNames>
+      <RefTableId>24847</RefTableId>
+      <RefColPositions>1</RefColPositions>
+      <RefTableName>component</RefTableName>
+      <RefKeyName>component_pkey</RefKeyName>
+      <RefColNames>component_id</RefColNames>
+    </foreign-key>
+    <column id="101" parent="50" name="job_status_id">
+      <Position>1</Position>
+      <DataType>integer|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <DefaultExpression>nextval(&apos;jobstatus_job_status_id_seq&apos;::regclass)</DefaultExpression>
+      <TypeId>23</TypeId>
+      <SequenceName>jobstatus_job_status_id_seq</SequenceName>
+    </column>
+    <column id="102" parent="50" name="job_status">
+      <Position>2</Position>
+      <DataType>varchar(20)|0s</DataType>
+      <NotNull>1</NotNull>
+      <StateNumber>678</StateNumber>
+      <TypeId>1043</TypeId>
+    </column>
+    <index id="103" parent="50" name="jobstatus_pkey">
+      <ObjectId>24843</ObjectId>
+      <ColNames>job_status_id</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="104" parent="50" name="jobstatus_pkey">
+      <ObjectId>24844</ObjectId>
+      <ColNames>job_status_id</ColNames>
+      <UnderlyingIndexName>jobstatus_pkey</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

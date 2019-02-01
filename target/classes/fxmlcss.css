@@ -1,0 +1,40 @@
+.button {
+
+    -fx-border-color: #E3CA3C;
+    -fx-background-color: #F5F5F5;
+
+    -fx-font-size: 12pt;
+    -fx-text-fill: #7A2007;
+}
+
+.button:hover, .button:focused{
+
+    -fx-background-color: derive(#E3CA3C, 40%);}
+.tab {
+    -fx-pref-width: 263;
+    -fx-pref-height: 50;
+    -fx-border-color: #E3CA3C;
+    -fx-background-color: #F5F5F5;
+    -fx-font-size: 12pt;
+    -fx-text-fill: #7A2007 ;
+}
+.tab-pane {
+    -fx-background-color: #F5F5F5;
+}
+
+.tab:hover, .tab:focused{
+    -fx-background-color: derive(#E3CA3C, 40%);}
+
+.tab-header-background{
+    -fx-background-color: #F5F5F5;
+}
+
+.tab-label {
+    -fx-text-fill: #7A2007 ;
+    -fx-font-size: 14pt;
+}
+
+#add {
+    -fx-font-size: 18pt;
+}
+

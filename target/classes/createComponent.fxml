@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="rootPane" prefHeight="286.0" prefWidth="239.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.uh.tech.cis3368.finalproject.Controllers.CreateComponentsController">
+    <children>
+        <VBox prefHeight="237.0" prefWidth="240.0" style="-fx-background-color: #F5F5F5;" AnchorPane.bottomAnchor="69.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+                <JFXTextField fx:id="compNametxt" alignment="CENTER" focusColor="#e3ca3c" labelFloat="true" promptText="Component Name" unFocusColor="#7a2007">
+                    <VBox.margin>
+                        <Insets left="10.0" right="10.0" top="30.0" />
+                    </VBox.margin>
+                </JFXTextField>
+            <JFXTextField fx:id="compPriceTxt" alignment="CENTER" focusColor="#e3ca3c" labelFloat="true" layoutX="20.0" layoutY="40.0" promptText="Component Price" unFocusColor="#7a2007">
+               <padding>
+                  <Insets left="10.0" right="10.0" top="60.0" />
+               </padding>
+            </JFXTextField>
+            </children>
+        </VBox>
+        <HBox layoutY="234.0" prefHeight="72.0" prefWidth="240.0">
+            <children>
+                <JFXButton fx:id="saveBtn" onAction="#buttonEvent" prefHeight="71.0" prefWidth="120.0" stylesheets="@fxmlcss.css" text="Save" underline="true" />
+                <JFXButton fx:id="cancelBtn" onAction="#buttonEvent" prefHeight="73.0" prefWidth="120.0" stylesheets="@fxmlcss.css" text="Close" underline="true" />
+            </children>
+        </HBox>
+    </children>
+</AnchorPane>

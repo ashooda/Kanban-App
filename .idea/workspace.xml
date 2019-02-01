@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="184b64e0-1c98-407c-bae8-bd5910d42229" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/storage_v2/_src_/database/semesterfinalproject.GxZ7Hg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/storage_v2/_src_/database/semesterfinalproject.GxZ7Hg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/dragndrop.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dragndrop.fxml" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semesterfinalproject: database" type="6d9b600a:PostgresImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semesterfinalproject: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semesterfinalproject: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="semesterfinalproject@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="semesterfinalproject: database" type="6d9b600a:PostgresImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="a16502c0:PostgresImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1393751385">
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="component" value="1" />
+          <entry key="fxml" value="12" />
+          <entry key="java" value="24" />
+          <entry key="job" value="3" />
+          <entry key="jobcomponent" value="2" />
+          <entry key="jobstatus" value="2" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="Database Element" value="8" />
+          <entry key="JAVA" value="24" />
+          <entry key="Scratch" value="2" />
+          <entry key="XML" value="14" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fxml" value="42" />
+          <entry key="java" value="504" />
+          <entry key="sql" value="44" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="504" />
+          <entry key="Scratch" value="44" />
+          <entry key="XML" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.28" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1292817867">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.19" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="css" value="1" />
+          <entry key="fxml" value="1" />
+          <entry key="java" value="14" />
+          <entry key="properties" value="1" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="CSS" value="1" />
+          <entry key="JAVA" value="14" />
+          <entry key="Properties" value="1" />
+          <entry key="SQL" value="1" />
+          <entry key="XML" value="2" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditJobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="196" selection-start-line="196" selection-end-line="196" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditEmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditCustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditComponentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="71" column="41" selection-start-line="67" selection-start-column="16" selection-end-line="71" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateJobController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateEmployeeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateCustomerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateComponentsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20181129235057__create_all_tables.sql">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-459" />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>setJobSta</find>
+      <find>setJo</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Jobcomponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Jobstatus.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/fxmlcss.css" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createOrder.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createComponent.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/JavaFxHandler.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/createComponentsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/createCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createCustomer.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createJob.fxml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/console.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/JobStatusRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/JobComponetRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/editJobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editJob.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/mainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/CustomerRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/createJobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateCustomerController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createEmployee.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateEmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/EmployeeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditEmployeeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editCustomer.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editEmployee.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/viewComponents.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editComponent.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateComponentsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/ComponentRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditComponentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/SceneRootHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/FinalprojectApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditJobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateJobController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/ViewComponentsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/dragNdrop/sample.fxml" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/JobRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/dragNdrop/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Job.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Component.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Customer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Jobcomponent.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Jobstatus.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/console_1.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/MainController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/mainPane.fxml" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/db/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/console_2.sql" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="833" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="fxml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="Repositories" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finalproject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="migration" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="javafx.controls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="javafx.controls" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="&lt; 10 &gt;" type="70bed36:NamedLibraryElementNode" />
+              <item name="javafx.controls" type="462c0819:PsiDirectoryNode" />
+              <item name="scene" type="462c0819:PsiDirectoryNode" />
+              <item name="control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.springframework.data:spring-data-commons:2.1.2.RELEASE" type="70bed36:NamedLibraryElementNode" />
+              <item name="spring-data-commons-2.1.2.RELEASE.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="repository" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+            </path>
+            <path>
+              <item name="finalproject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="b7cbf9cb-40fe-494e-b279-1f10d3ea90f1" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="JPA.DatabaseSchemaImportDialog" value="b7cbf9cb-40fe-494e-b279-1f10d3ea90f1" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="persis&#9;ACTION&#9;ActivatePersistenceToolWindow" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549004154956" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="FinalprojectApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="finalproject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.uh.tech.cis3368.finalproject.Entities.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="edu.uh.tech.cis3368.finalproject.FinalprojectApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.FinalprojectApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="184b64e0-1c98-407c-bae8-bd5910d42229" name="Default Changelist" comment="" />
+      <created>1543554530764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543554530764</updated>
+      <workItem from="1543554536019" duration="3073000" />
+      <workItem from="1543558005610" duration="2921000" />
+      <workItem from="1543615693210" duration="266000" />
+      <workItem from="1543619111577" duration="6970000" />
+      <workItem from="1543627587019" duration="1752000" />
+      <workItem from="1543643482600" duration="11884000" />
+      <workItem from="1543687044320" duration="10484000" />
+      <workItem from="1543764541634" duration="8096000" />
+      <workItem from="1543774773203" duration="15739000" />
+      <workItem from="1543792991062" duration="1187000" />
+      <workItem from="1543795645845" duration="1385000" />
+      <workItem from="1543797309747" duration="266000" />
+      <workItem from="1549003568788" duration="543000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="10568000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Learn" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6936937" visible="true" weight="0.28389263" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Persistence" order="2" sideWeight="0.3063063" side_tool="true" visible="true" weight="0.28389263" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4985694" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.73624164" visible="true" weight="0.21164773" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49928468" weight="0.32972974" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.2637584" side_tool="true" visible="true" weight="0.21164773" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" order="14" sideWeight="0.49713877" weight="0.32972974" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.1671141" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Created all tables and added persistence unit to map tables to classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created all tables and added persistence unit to map tables to classes" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/viewComponents.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="28" column="47" selection-start-line="28" selection-start-column="34" selection-end-line="28" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/control/Labeled.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/dragNdrop/sample.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/dragNdrop/Controller.java" />
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Component.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="46" lean-forward="true" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/console_1.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="50" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/JobRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="20" column="27" selection-start-line="20" selection-start-column="27" selection-end-line="20" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/database/semesterfinalproject/schema/public/table/jobstatus" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/console_2.sql" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Jobstatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/database/semesterfinalproject/schema/public/table/job" />
+    <entry file="das://b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/database/semesterfinalproject/schema/public/table/component" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/mainPane.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Jobcomponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/EmployeeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://b7cbf9cb-40fe-494e-b279-1f10d3ea90f1/database/semesterfinalproject/schema/public/table/jobcomponent" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-10.0.2.jdk/Contents/Home/lib/src.zip!/javafx.controls/javafx/scene/control/Cell.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Entities/Customer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="8" column="45" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/dragndrop.fxml" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editComponent.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/editCustomer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createCustomer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createJob.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="59" selection-start-line="23" selection-start-column="59" selection-end-line="23" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.2.RELEASE/spring-data-commons-2.1.2.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/JobComponetRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.0.RELEASE/spring-boot-autoconfigure-2.1.0.RELEASE.jar!/org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="344" column="42" selection-start-line="344" selection-start-column="42" selection-end-line="344" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createEmployee.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/SceneRootHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/JavaFxHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/FinalprojectApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/ComponentRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Repositories/CustomerRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/createComponent.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/fxml/fxmlcss.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/ViewComponentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="407" column="53" selection-start-line="407" selection-start-column="53" selection-end-line="407" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditJobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="196" selection-start-line="196" selection-end-line="196" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditEmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/EditComponentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="71" column="41" selection-start-line="67" selection-start-column="16" selection-end-line="71" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateJobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="119" column="16" selection-start-line="119" selection-start-column="16" selection-end-line="119" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateEmployeeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateCustomerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/edu/uh/tech/cis3368/finalproject/Controllers/CreateComponentsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/db/migration/V20181129235057__create_all_tables.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-459" />
+      </provider>
+    </entry>
+  </component>
+</project>

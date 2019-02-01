@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="semesterfinalproject@localhost" uuid="b7cbf9cb-40fe-494e-b279-1f10d3ea90f1">
+      <database-info product="PostgreSQL" version="10.5" jdbc-version="4.2" driver-name="PostgreSQL JDBC Driver" driver-version="42.2.2" family="POSTGRES" exact-version="10.5">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>postgres</user-name>
+      <introspection-schemas>@:@</introspection-schemas>
+    </data-source>
+    <data-source name="NewPersistenceUnit/TopLink" uuid="f8e863e7-2e45-42ec-9c29-438b5e876edd">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+    </data-source>
+    <data-source name="NewPersistenceUnit/EclipseLink" uuid="2c0cec28-6423-4d51-b989-5e8dd78c8ee6">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+    </data-source>
+    <data-source name="NewPersistenceUnit/Hibernate" uuid="d232f089-4c88-465e-b6a8-b1587dee4d63">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+    </data-source>
+    <data-source name="NewPersistenceUnit/OpenJPA" uuid="5dfb9f2b-e75f-4da6-bf95-28039e8f9880">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="POSTGRES" exact-version="0.0" />
+    </data-source>
+  </component>
+</project>
